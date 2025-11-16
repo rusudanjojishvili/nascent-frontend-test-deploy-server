@@ -77,6 +77,6 @@ app.post('/trade/', (req, res) => {
     })
 })
 
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
   console.log(`Mock server listening on port ${port}`)
 })
