@@ -11,8 +11,7 @@ const ethOrderbook = require('./data/eth_orderbook.json');
 // ===== CORS FIX =====
 app.use(cors({
   origin: [
-    "http://localhost:3000",
-    "https://orderbook-trading-v1.vercel.app"  // your Vercel frontend
+    "https://orderbook-trading-app.vercel.app"  // your Vercel frontend
   ],
   methods: ["GET", "POST"],
   allowedHeaders: ["Content-Type"],
